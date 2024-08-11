@@ -1,13 +1,11 @@
-.button {
-    background-color: var(--accent-color);
+.button{
     display: inline-block;
     padding: 5px 10px;
     border-radius: 5px;
+    background-color: white;
     text-decoration: none;
-    color: var(--text-color);
-    border: 1px solid var(--border-color);
-}
 
-.button:hover {
-    text-decoration: underline;
+    &:hover{
+        text-decoration: underline;
+    }
 }
